@@ -5,6 +5,8 @@ print()
 print()
 print("Now trying to import Pnadas")
 import pandas as pd
+print("Pandas was installed, great!")
+
 import numpy as np
 
 start = 1
@@ -14,7 +16,5 @@ step = 33
 myRange = np.arange(start, stop, step)
 print(f"My np-created range: {myRange}","\n"*2)
 
-print()
-print("Pandas was installed, great!")
-print("Trying to push to Github")
-print("trying again")
+print("committing changes via CLI")
+print("SUCCESS")
